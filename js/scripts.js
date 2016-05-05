@@ -1,5 +1,5 @@
 jQuery( document ).ready(function( $ ) {
-  jQuery.get( "http://dev-apicalling.pantheonsite.io//wp-json/wp/v2/posts", function( posts ) {
+  jQuery.get( "https://dev-apicalling.pantheonsite.io//wp-json/wp/v2/posts", function( posts ) {
     // console.log( posts );
     posts.forEach(function(post) {
       console.log(post.title.rendered);
